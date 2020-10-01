@@ -1,0 +1,30 @@
+body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   height: 1200px;
+
+}
+
+.link li{
+   height: 50px;
+   width: 150px;
+   /* background-color: blue; */
+   margin: 0 20px 0 0;
+}
+
+.link li:hover{
+   transform: scale(1.1);
+   transition: .5s;
+   cursor: pointer;
+}
+
+.link li a{
+   text-decoration: none;
+   color: blueviolet;
+}
+
+.card{
+   height: 800px;
+   border-radius: 30px;
+}
